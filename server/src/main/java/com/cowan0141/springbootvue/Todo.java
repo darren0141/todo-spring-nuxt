@@ -12,13 +12,11 @@ import javax.persistence.Entity;
 public class Todo {
 
     @Id @GeneratedValue
-    private Long id;
+    private Long Id;
 
     @NonNull
     private String title;
 
     private Boolean completed = false;
-
-    // test for commit
     
 }

@@ -7,8 +7,8 @@ import org.springframework.stereotype.Component;
 @Component
 public class RestRepositoryConfigurator implements RepositoryRestConfigurer {
 
-    // @Override
-    public void configureRepositoryRestConfiguration(RepositoryRestConfiguration config){
-        config.exposeIdsFor(Todo.class); 
-    }
+  // @Override
+  public void configureRepositoryRestConfiguration(RepositoryRestConfiguration config) {
+    config.exposeIdsFor(Todo.class);
+  }
 }
